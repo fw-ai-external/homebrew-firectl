@@ -3,21 +3,17 @@
 ## How do I install these formulae?
 
 ```bash
-brew tap fw-ai/firectl
+brew tap fw-ai-external/firectl
 brew install firectl
 ```
 
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
 ```ruby
-tap "fw-ai/firectl"
-brew "<formula>"
+tap "fw-ai-external/firectl"
+brew "firectl"
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
-
-## Trigger
-
-The workflow to update the SHA256 hash is triggered by a firectl stable release: https://github.com/fw-ai/fireworks/blob/719924c123401ce01e569a04e0138973cfead0ec/.github/workflows/firectl_release.yml#L63-L70
+See the [firectl documentation](https://docs.fireworks.ai/tools-sdks/firectl/firectl) for setup and usage. For Homebrew help, run `brew help` or visit [Homebrew's documentation](https://docs.brew.sh).
